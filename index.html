@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Portifolio Pessoal</title>
+</head>
+<body>
+
+        <main>
+            <header>
+                <div class="logo">
+                    <a href="#home"><img src="./img/logo.jpeg" alt="Logo do site" width="90" height="70"></a>
+                </div>
+                <div class="menu">
+                    <nav class="nav-list">
+                        <a href="#home">Home</a>
+                        <a href="#projetos">Projetos</a>
+                        <a href="https://linkedin.com/in/tiago-macichonek-47145611a">Linkedin</a>
+                        <a href="https://github.com/macichonek">Github</a>
+                    </nav>
+                </div>
+            </header>
+
+            <!--Home-->
+                <section id="home">
+                    <div class="home-info">
+                    <h2>Ola sou o Tiago</h2>
+                    <span class="home-position">Desenvolvedor Jr</span>
+                    <span class="home-resume">
+                        Graduado em Analise e Desenvolvimento de Sistemas,
+                        apaixonado por tecnologia, em busca de conhecimento e experiencia na area de desenvolvimento de sistemas.
+                    </span>
+                        <div>
+                            <table>
+                                <tr>
+                                <td>
+                                    <div>
+                                        <a href='mailto:macichonek@gmail.com'><button>E-mail</button></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href='https://web.whatsapp.com/send?phone=+5551981850491' target="_blank"><button>WhatsApp</button></a>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div>
+                                        <a href='https://drive.google.com/file/d/1dQSwZ2TbTMQMCw6qPp0kZtidNh0MhHvk/view?usp=sharing' target="_blank"><button>Curriculo</button></a>
+                                    </div>
+                                </td>
+                                </tr>
+                            </table>
+                            
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="home-img">
+                        <img src="./img/xavatar.jpg" alt="Foto de perfil">
+                    </div>
+                </section>
+
+                <!--Projetos-->
+                    <section id="projetos">
+                        <h2>Projetos</h2>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="project-img">
+                                        <img src="./img/site.jpg" alt="Foto de um site feito em Html e Css - Landing Page">
+                                    </div>
+                                    <div class="project-info">
+                                        <h2>Website de Portifolio</h2>
+                                        <p>Site responsivo de Portifolio feito em Html e Css - Landing Page</p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="project-img">
+                                        <img src="./img/Monitor de itinerarios.png" alt="Foto de controle de itinerarios da empresa Soul de onibus">
+                                    </div>
+                                    <div class="project-info">
+                                        <h2>Controle de itinerarios em PHP</h2>
+                                        <p>Controle feito em PHP e MySql</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </section>
+
+                <footer>
+                    Copyright @2024 Tiago Macichonek. Todos os direitos reservados.
+                </footer>
+
+
+        </main>    
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
